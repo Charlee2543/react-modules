@@ -34,7 +34,7 @@ function FAQ() {
 	return (
 		<>
 			<h1>FAQ (คำถามที่พบบ่อย)</h1>
-			<Accordion.Root multiple defaultValue={["b"]}>
+			<Accordion.Root collapsible defaultValue={["a"]}>
 				{items.map((item, index) => (
 					<Accordion.Item key={index} value={item.value}>
 						{/* {console.log("item: ", item)} */}
